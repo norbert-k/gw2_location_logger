@@ -1,0 +1,15 @@
+on: [push]
+
+name: CI
+
+jobs:
+  build_and_test:
+    name: gw2_location_logger
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions-rs/cargo@v1
+        with:
+          use-cross: true
+          command: build
+          arguments: --target x86_64-pc-windows-gnu --release --all-features
