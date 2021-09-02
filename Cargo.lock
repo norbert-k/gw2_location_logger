@@ -161,8 +161,7 @@ checksum = "308cc39be01b73d0d18f82a0e7b2a3df85245f84af96fdddc5d202d27e47b86a"
 [[package]]
 name = "mumblelink_reader"
 version = "0.3.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6b6ee51e7afd726bed9e543164348af6ef873439d7d613c6d21ee158096b08df"
+source = "git+https://github.com/norbert-k/mumblelink_reader#ce8589a859ebf461d27b76fc5af753d84cf2d92a"
 dependencies = [
  "lazy_static",
  "libc",
