@@ -1,5 +1,5 @@
 # gw2_location_logger
-
+Check releases to download executable
 ```
 gw2_location_logger 1.0
 
